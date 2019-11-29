@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aringr - Home</title>
+    <link rel="icon" href="./img/icons/favicon.png" type="image/gif" sizes="16x16">
+
+    <!-- css assets -->
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-mobile m-show shadow">
+            <div class="wrap-img">
+                <img id="icon-home" alt="" onclick="openpage(1)">
+            </div>
+            <div class="wrap-img">
+                <img id="icon-profile" alt="" onclick="openpage(2)">
+            </div>
+        </div>
+        
+        <div class="header m-hide">
+            <div class="menu-atas">
+                <div class="menu-dekstop">
+                    <ul class="list-menu">
+                        <li id="link-home" onclick="openpage(1)">Home</li>
+                        <li id="link-profile" onclick="openpage(2)">Info</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="foto">
+                <div>
+                    <img src="./img/ari-newedit3.png" alt=""> 
+                </div>
+            </div>  
+            <div class="deskripsi">
+                <div class="sort-desc">
+                    <h1>Hi, I'm Ari</h1>
+                    <p>I'm currently working in PT. Ultrajaya which based in West Bandung. i really interested in web delopment. it's like never ending to learn, never ending to knowing something new</p>
+                </div>
+                <div class="btn-desc">
+                    <button class="button-primary" onclick="openpage(2)">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrap-content">
+                <div class="social">
+                    <span>Find me in</span>
+                    <ul>
+                        <li class="list-icon">
+                            <img onclick="opensocial(1)" class="social-icon" src="./img/socials/twitter.png" alt="">
+                        </li>
+                        <li class="list-icon">
+                            <img onclick="opensocial(2)" class="social-icon" src="./img/socials/github.png" alt="">
+                        </li>
+                        <li class="list-icon">
+                            <img onclick="opensocial(3)" class="social-icon" src="./img/socials/instagram.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="work">
+                    <span>Work Experience</span>
+                    <ul>
+                        <li>PT. Walden Global Services</li>
+                        <li>PT. Ultrajaya Milk Industry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js assets -->
+    <script src="./js/myjs.js"></script>
+</body>
+</html>
